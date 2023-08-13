@@ -1,36 +1,32 @@
 /*
-ѭ���ṹ֮һ��do-whileѭ��
-
-
-1. ����ѭ���ṹ����һ������4��Ҫ�أ�
-�� ��ʼ������
-�� ѭ������ ---> һ����boolean���͵ı��������ʽ
-�� ѭ����
-�� ��������
-
-2. do-while�ĸ�ʽ
-
-��
+循环结构之一：do-while循环
+1. 凡是循环结构，就一定会有4个要素：
+① 初始化条件
+② 循环条件 ---> 一定是boolean类型的变量或表达式
+③ 循环体
+④ 迭代部分
+2. do-while的格式
+①
 do{
-	��
-	��
-}while(��);
+	③
+	④
+}while(②);
 
-ִ�й��̣��� - �� - �� - �� - �� - �� - .... - ��
+执行过程：① - ③ - ④ - ② - ③ - ④ - .... - ②
 
-3. ˵����
-1) do-whileѭ������ִ��һ��ѭ���塣
-2) for��while��do-whileѭ������֮���ǿ����໥ת���ġ�
-3) do-whileѭ���ṹ���ڿ����У������for��whileѭ��������ʹ�õĽ��١�
+3. 说明：
+1) do-while循环至少执行一次循环体。
+2) for、while、do-while循环三者之间是可以相互转换的。
+3) do-while循环结构，在开发中，相较于for、while循环来讲，使用的较少。
 
 */
 class DoWhileTest {
 	public static void main(String[] args) {
 		
-		//���󣺱���100���ڵ�ż���������ż���ĸ������ܺ�
+		//需求1：遍历100以内的偶数，并输出偶数的个数和总和
 		int i = 1;
-		int count = 0;//��¼ż���ĸ���
-		int sum = 0;//��¼ż�����ܺ�
+		int count = 0;//记录偶数的个数
+		int sum = 0;//记录偶数的总和
 
 		do{
 			if(i % 2 == 0){
@@ -43,8 +39,8 @@ class DoWhileTest {
 
 		}while(i <= 100);
 		
-		System.out.println("ż���ĸ���Ϊ��" + count);
-		System.out.println("ż�����ܺ�Ϊ��" + sum);
+		System.out.println("偶数的个数为：" + count);
+		System.out.println("偶数的总和为：" + sum);
 
 		//***************************
 		int num1 = 10;
@@ -60,3 +56,4 @@ class DoWhileTest {
 		}while(num2 > 10);
 	}
 }
+//todo
