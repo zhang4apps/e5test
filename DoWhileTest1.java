@@ -20,7 +20,7 @@ class DoWhileTest1 {
 			System.out.print("请选择(1-4)：");
 
 			//3. 使用Scanner获取用户的选择
-			
+			//while is fuk
 			int selection = scan.nextInt();
 			switch(selection){
 				//4. 根据用户的选择，决定执行存款、取款、显示余额、退出的操作
