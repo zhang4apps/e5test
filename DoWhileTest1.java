@@ -1,68 +1,57 @@
-/*
-ÌâÄ¿£ºÄ£ÄâATMÈ¡¿î
 
-ÉùÃ÷±äÁ¿balance²¢³õÊ¼»¯Îª0£¬ÓÃÒÔ±íÊ¾ÒøÐÐÕË»§µÄÓà¶î£¬ÏÂÃæÍ¨¹ýATM»ú³ÌÐòÊµÏÖ´æ¿î£¬È¡¿îµÈ¹¦ÄÜ¡£
-
-=========ATM========
-   1¡¢´æ¿î
-   2¡¢È¡¿î
-   3¡¢ÏÔÊ¾Óà¶î
-   4¡¢ÍË³ö
-ÇëÑ¡Ôñ(1-4)£º
-*/
 import java.util.Scanner;
 class DoWhileTest1 {
 	public static void main(String[] args) {
 		
-		//1. ¶¨ÒåbalanceµÄ±äÁ¿£¬¼ÇÂ¼ÕË»§Óà¶î
+		//1. å®šä¹‰balanceçš„å˜é‡ï¼Œè®°å½•è´¦æˆ·ä½™é¢
 		double balance = 0.0;
 
-		boolean flag = true; //¿ØÖÆÑ­»·µÄ½áÊø
+		boolean flag = true; //æŽ§åˆ¶å¾ªçŽ¯çš„ç»“æŸ
 
-		Scanner scan = new Scanner(System.in);//ÊµÀý»¯Scanner
+		Scanner scan = new Scanner(System.in);//å®žä¾‹åŒ–Scanner
 
 		do{
-			//2. ÉùÃ÷ATMÈ¡¿îµÄ½çÃæ
+			//2. å£°æ˜ŽATMå–æ¬¾çš„ç•Œé¢
 			System.out.println("=========ATM========");
-			System.out.println("   1¡¢´æ¿î");
-			System.out.println("   2¡¢È¡¿î");
-			System.out.println("   3¡¢ÏÔÊ¾Óà¶î");
-			System.out.println("   4¡¢ÍË³ö");
-			System.out.print("ÇëÑ¡Ôñ(1-4)£º");
+			System.out.println("   1ã€å­˜æ¬¾");
+			System.out.println("   2ã€å–æ¬¾");
+			System.out.println("   3ã€æ˜¾ç¤ºä½™é¢");
+			System.out.println("   4ã€é€€å‡º");
+			System.out.print("è¯·é€‰æ‹©(1-4)ï¼š");
 
-			//3. Ê¹ÓÃScanner»ñÈ¡ÓÃ»§µÄÑ¡Ôñ
+			//3. ä½¿ç”¨ScannerèŽ·å–ç”¨æˆ·çš„é€‰æ‹©
 			
 			int selection = scan.nextInt();
 			switch(selection){
-				//4. ¸ù¾ÝÓÃ»§µÄÑ¡Ôñ£¬¾ö¶¨Ö´ÐÐ´æ¿î¡¢È¡¿î¡¢ÏÔÊ¾Óà¶î¡¢ÍË³öµÄ²Ù×÷
+				//4. æ ¹æ®ç”¨æˆ·çš„é€‰æ‹©ï¼Œå†³å®šæ‰§è¡Œå­˜æ¬¾ã€å–æ¬¾ã€æ˜¾ç¤ºä½™é¢ã€é€€å‡ºçš„æ“ä½œ
 				case 1:
-					System.out.print("ÇëÊäÈë´æ¿îµÄ½ð¶î£º");
+					System.out.print("è¯·è¾“å…¥å­˜æ¬¾çš„é‡‘é¢ï¼š");
 					double money1 = scan.nextDouble();
 					if(money1 > 0){
 						balance += money1;
 					}
 					break;
 				case 2:
-					System.out.print("ÇëÊäÈëÈ¡¿îµÄ½ð¶î£º");
+					System.out.print("è¯·è¾“å…¥å–æ¬¾çš„é‡‘é¢ï¼š");
 					double money2 = scan.nextDouble();
 					
 					if(money2 > 0 && money2 <= balance){
 						balance -= money2;
 					}else{
-						System.out.println("ÊäÈëµÄÊý¾ÝÓÐÎó»òÓà¶î²»×ã");
+						System.out.println("è¾“å…¥çš„æ•°æ®æœ‰è¯¯æˆ–ä½™é¢ä¸è¶³");
 					}
 
 
 					break;
 				case 3:
-					System.out.println("ÕË»§Óà¶îÎª£º" + balance);
+					System.out.println("è´¦æˆ·ä½™é¢ä¸ºï¼š" + balance);
 					break;
 				case 4 :
 					flag = false;
-					System.out.println("¸ÐÐ»Ê¹ÓÃ£¬»¶Ó­ÏÂ´Î¹âÁÙ^_^");
+					System.out.println("æ„Ÿè°¢ä½¿ç”¨ï¼Œæ¬¢è¿Žä¸‹æ¬¡å…‰ä¸´^_^");
 					break;
 				default:
-					System.out.println("ÊäÈëÓÐÎó£¬ÇëÖØÐÂÊäÈë");
+					System.out.println("è¾“å…¥æœ‰è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥");
 					//break;
 			
 			}
@@ -71,7 +60,7 @@ class DoWhileTest1 {
 		}while(flag);
 
 		
-		//¹Ø±Õ×ÊÔ´
+		//å…³é—­èµ„æº
 		scan.close();
 
 		
