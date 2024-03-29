@@ -1,0 +1,938 @@
+[
+  { "clientLogFile": "D:\\WeGameApps\\流放之路\\logs\\Client.txt" },
+  {
+    "region": "Act I",
+    "zone": [
+	  {
+        "zoneName": "暮光海滩",
+      "zoneSeed": [ "Coast_Seed_1", "Coast_Seed_2", "Coast_Seed_3", "占位", "占位1" ],
+        "note": "1-1. 开小站，往上直接进【炙热盐沼】\n1-3. 往下进【海潮孤岛】"
+      },
+	  {
+        "zoneName": "海潮孤岛",
+      "zoneSeed": [ "海潮孤岛", "占位", "占位1", "占位2" ],
+		"note": "1-4. 杀Boss拿医药箱，下线回城"
+      },
+	  {
+      "zoneName": "绝望岩滩",
+      "zoneSeed": [ "占位", "占位1", "占位2", "占位3" ],
+	"note": "捡技能石，往前走发光箱子有技能石。和Boss顺势针绕圈走位"
+      },
+	  {
+        "zoneName": "卡鲁要塞",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "南部森林",
+      "zoneSeed": [ "南部森林", "占位", "占位1", "占位2" ],
+		"note": "往上走呦,营地就在前面"
+      },
+	  {
+        "zoneName": "狮眼守望",
+      "zoneSeed": [ "狮眼守望", "狮眼", "占位", "占位1", "占位2", "占位3" ],
+        "note": "1-0. Go!【暮光海滩】   1-5. 交任务传【海潮地穴】     1-9. 进传送门\n1-11. 交任务传【禁灵下层】   1-13. 交典狱长任务，传送【监狱大门】\n1-18. 杀完船长交任务，传送回【怨忿之窟】；2-16. 传湿地"
+      },
+      {
+        "zoneName": "炙热盐沼",
+        "zoneSeed": ["Mud Flats_Seed_1", "Mud Flats_Seed_2"],
+        "note": "1-2. 杀鸟拿鸟蛋，进【海潮地穴】"
+      },
+      {
+        "zoneName": "海潮地穴",
+        "zoneSeed": ["Submerged Passage_Seed_1", "Submerged Passage_Seed_2", "Submerged Passage_Seed_3"],
+        "note": "1-3. 往前走开小站，传回【暮光海滩】，往下进【海潮孤岛】\n1-6. 桥前岔路或水声之渊开门，继续走，进【沉寂海崖】\n1-9. 找路进【水声之渊】"
+      },
+      {
+        "zoneName": "沉寂海崖",
+        "zoneSeed": ["沉寂海崖"],
+        "note": "1-7. 一路往前开小站进【碎岩山坡】"
+      },
+      {
+        "zoneName": "水声之渊",
+        "zoneSeed": ["Flooded Depths_Seed_1", "Flooded Depths_Seed_2", "Flooded Depths_Seed_3"],
+        "note": "1-10. 菱形对角找Boss，杀大蜘蛛，下线回城交任务"
+      },
+      {
+        "zoneName": "碎岩山坡",
+        "zoneSeed": ["Climb_Seed_1", "Climb_Seed_2"],
+        "note": "1-8. 靠左贴墙，不用开小站，进入【禁灵之狱下层】"
+      },
+      {
+        "zoneName": "禁灵之狱下层",
+        "zoneSeed": ["Lower Prison_Seed_1", "Lower Prison_Seed_2", "Lower Prison_Seed_3", "Lower Prison_Seed_4"],
+        "note": "1-9. 开小站，回城不交任务进传送门（海潮地穴找【水声之渊】）\n1-11. 继续探索做试炼,完事进【禁灵之狱上层】"
+      },
+      {
+        "zoneName": "禁灵之狱上层",
+        "zoneSeed": ["Upper Prison_Seed_1", "Upper Prison_Seed_2", "Upper Prison_Seed_3", "Upper Prison_Seed_4", "Upper Prison_Seed_5"],
+        "note": "1-12. 探索，进【监狱宿舍】\n1-13. 干掉典狱长，下线回城"
+      },
+      {
+        "zoneName": "监狱大门",
+        "zoneSeed": ["Prisoner_s Gate_Seed_1", "Prisoner_s Gate_Seed_2", "Prisoner_s Gate_Seed_3"],
+        "note": "1-14. 探索，沿着路中间山脊向上走小道，进入【魅影船墓】"
+      },
+      {
+        "zoneName": "魅影船墓",
+        "zoneSeed": ["Ship Graveyard_Seed_1", "Ship Graveyard_Seed_2", "Ship Graveyard_Seed_3", "Ship Graveyard_Seed_4"],
+        "note": "1-15. 先开小站，探索，找【魅影船墓洞穴】，杀BOSS，杀完出来\n1-16. 不急找船长，先探索进【怨忿之窟】\n1-18. 怨忿之窟回来，杀船长，下线回城"
+      },
+      {
+        "zoneName": "魅影船墓洞穴",
+        "zoneSeed": [ "占位",  "占位1" ],
+        "note": "1-15. 杀BOSS，杀完出来"
+      },
+      {
+        "zoneName": "怨忿之窟",
+        "zoneSeed": ["Cavern of Wrath_Seed_1", "Cavern of Wrath_Seed_2", "Cavern of Wrath_Seed_3"],
+        "note": "1-17. 开小站，传回【魅影船墓】找船长\n1-19. 探索，进【怨忿之窟深处】"
+      },
+      {
+        "zoneName": "怨忿之窟深处",
+        "zoneSeed": ["Cavern of Anger_Seed_1", "Cavern of Anger_Seed_2"],
+        "note": "1-20. 探索，进【莫薇儿的巢穴】，杀Boss，下线回城，进入第二章"
+      }
+    ]
+  },
+  {
+    "region": "Act II",
+    "zone": [
+      {
+        "zoneName": "森林营地",
+        "zoneSeed": [ "森林营地", "占位", "占位1", "占位2", "占位3" ],
+        "note": "2-1. 往右上进【前哨原野】       2-5. 罪孽回来往下进【河道】\n2-8. 交蜘蛛任务，传【危机叉路】     2-10. 杀完盗贼，传【河道】\n2-13. 激活完传【危机叉路】      2-20. 金字塔Boss打完传第三章"
+      },
+	  {
+        "zoneName": "前哨原野",
+        "zoneSeed": ["前哨原野"],
+        "note": "2-2. 沿石板路探索，进【危机岔路】"
+      },
+	  {
+        "zoneName": "危机叉路",
+      "zoneSeed": [ "危机叉路", "占位", "占位1", "占位2" ],
+        "note": "2-3. 开小站，往左上进【罪孽之殿】\n2-9. 往上探索，进【河畔断桥】\n2-14. 往右探索，进【堕道遗迹】"
+      },
+	  {
+        "zoneName": "河畔断桥",
+      "zoneSeed": [ "河畔断桥", "占位" ],
+        "note": "2-10. 小站可不开，沿石板路杀盗贼，下线回城"
+      },
+	  {
+        "zoneName": "罪孽之殿 1 层",
+        "zoneSeed": ["Chamber of Sins Level 1_Seed_1", "Chamber of Sins Level 1_Seed_2", "Chamber of Sins Level 1_Seed_3"],
+        "note": "2-4. 往中间探索开小站，小站同方向往前，进2层"
+      },
+      {
+        "zoneName": "罪孽之殿 2 层",
+        "zoneSeed": ["Chamber of Sins Level 2_Seed_1","罪孽之殿2层"],
+        "note": "2-5. 做试炼，做完杀Boss，下线"
+      },
+	  {
+        "zoneName": "堕道遗迹",
+        "zoneSeed": ["堕道遗迹"],
+        "note": "2-15. 沿石板路探索\n进【寂静陵墓】"
+      },
+	  {
+        "zoneName": "寂静陵墓 1 楼",
+        "zoneSeed": ["寂静陵墓1层","寂静陵墓1层1"],
+        "note": "2-16. 开小站，做试炼\n下线回城到第一章【狮眼守望】交任务"
+      },
+	  {
+        "zoneName": "河道",
+        "zoneSeed": ["河道","河道1","河道2"],
+        "note": "2-6. 沿石板路开小站，走独木桥进【西部密林】\n2-11. 石板路旁找两个插着树干的石墩子，往前进【湿地】"
+      },
+	  {
+        "zoneName": "西部密林",
+      "zoneSeed": [ "西部密林", "占位", "占位1", "占位2", "占位3" ],
+        "note": "2-7. 沿石板路开小站，小站对侧找蜘蛛网覆盖的树，往前进【织网者巢穴】\n2-13. 朝小站同侧方向探路，杀阿莉雅。再沿主路往下杀boss，激活任务，下线回城"
+      },
+      {
+        "zoneName": "织网者巢穴",
+        "zoneSeed": ["Weaver_s Chambers_Seed_1", "Weaver_s Chambers_Seed_2", "Weaver_s Chambers_Seed_3"],
+        "note": "2-8. 杀Boss，下线"
+      },
+      {
+        "zoneName": "湿地",
+        "zoneSeed": ["Wetlands_Seed_1", "Wetlands_Seed_2", "Wetlands_Seed_3"],
+        "note": "2-12. 撸欧克，开小站，传【西部密林】\n2-17. 开树根，进【瓦尔废墟】"
+      },
+      {
+        "zoneName": "瓦尔废墟",
+        "zoneSeed": ["Vaal Ruins_Seed_1", "Vaal Ruins_Seed_2", "Vaal Ruins_Seed_3"],
+        "note": "2-18. S字形探索，找任务，进【北部密林】"
+      },
+	  {
+        "zoneName": "北部密林",
+        "zoneSeed": ["北部密林"],
+        "note": "2-19. 小站可不开，探索，进【洞穴】"
+      },
+      {
+        "zoneName": "洞穴",
+        "zoneSeed": ["Caverns_Seed_1", "Caverns_Seed_2", "Caverns_Seed_3", "Caverns_Seed_4"],
+        "note": "2-20. 开小站，探索，进【古金字塔】"
+        
+	},
+	{
+        "zoneName": "古金字塔",
+    "zoneSeed": [ "占位", "占位1" ],
+        "note": "2-20. 沿对角线探索，打完Boss下线回城"
+        
+	  },
+    ]
+  },
+  {
+    "region": "Act III",
+    "zone": [
+      {
+        "zoneName": "萨恩城废墟",
+        "zoneSeed": [ "萨恩城废墟", "占位" ],
+        "note": "一直往上走咯,救卡尔丽萨,前面就是城镇"
+      },
+	  {
+        "zoneName": "萨恩营地",
+      "zoneSeed": [ "第三章", "占位", "占位1", "占位2", "占位3" ],
+        "note": "3-1. 直接往右上进【贫民窟】      3-4. 交任务进门【贫民窟】   3-8. 黑石回来交任务传【市集地带】\n3-11. 海港回来传【激战广场】   3-14. 日耀回来传【下水道】    3-18. 图书馆回来再回去，带好通货买技能\n3-22. 杀完派蒂交任务，传【皇家花园】   3-23. 试炼做完做升华     3-24. 升华做完传【皇家花园】"
+      },
+	  {
+        "zoneName": "图书馆",
+        "zoneSeed": ["图书馆","占位1"],
+        "note": "3-18. 开小站，找烛台做任务，下线回城\n3-19. 购物完毕传【乌旗守卫兵营】"
+      },
+	  {
+        "zoneName": "贫民窟",
+        "zoneSeed": ["Slums_Seed_1", "Slums_Seed_2", "Slums_Seed_3", "Slums_Seed_4"],
+        "note": "3-2. 下水道放门，找楼梯和桥探索，进【火葬场】\n3-5. 门口进【下水道】"
+      },
+      {
+        "zoneName": "火葬场",
+        "zoneSeed": ["Crematorium_Seed_1","Crematorium_Seed_2","Crematorium_Seed_3","Crematorium_Seed_4","Crematorium_Seed_5"],
+        "note": "3-3. 开小站，做试炼，另一侧探索，杀Boss，被怪打死或小站回城"
+      },
+      {
+        "zoneName": "下水道",
+        "zoneSeed": ["Sewers_Seed_1","下水道"],
+        "note": "3-6. 找3个半身象，探索进【市集地带】\n3-15. 一路走，炸开路进【乌旗守卫兵营】"
+      },
+      {
+        "zoneName": "市集地带",
+        "zoneSeed": ["Marketplace_Seed_1","Marketplace_Seed_2","Marketplace_Seed_3","Marketplace_Seed_4","Marketplace_Seed_5"],
+        "note": "3-7. 通常向上和右边，探索进【黑石陵墓】\n3-9. 继续探索进【激战广场】"
+      },
+	  {
+        "zoneName": "黑石陵墓",
+        "zoneSeed": ["黑石陵墓"],
+        "note": "3-8. 做试炼，下线回城"
+      },
+      {
+        "zoneName": "激战广场",
+        "zoneSeed": ["Battlefront_Seed_1","Battlefront_Seed_2"],
+        "note": "3-10. 往下开小站，拿丝带，往左进【不朽海港】\n3-12. 探索，进【日耀神殿】"
+      },
+      {
+        "zoneName": "日耀神殿 1 层",
+        "zoneSeed": ["Solaris Temple Level 1_Seed_1","Solaris Temple Level 1_Seed_2","Solaris Temple Level 1_Seed_3"],
+        "note":"3-13. 小站可不开，沿着地毯进2层"
+      },
+      {
+        "zoneName": "日耀神殿 2 层",
+        "zoneSeed": ["Solaris Temple Level 2_Seed_1","Solaris Temple Level 2_Seed_2","Solaris Temple Level 2_Seed_3"],
+        "note":"3-14. 沿着地毯探索，交任务，进【永恒实验室】\n拿工艺下线回城"
+      },
+      {
+        "zoneName": "不朽海港",
+        "zoneSeed": ["Docks_Seed_1","Docks_Seed_2","Docks_Seed_3","Docks_Seed_4"],
+        "note": "3-11. 通常在左边，拿亚硫酸盐，下线回城"
+      },
+      {
+        "zoneName": "乌旗守卫兵营",
+        "zoneSeed": ["Ebony Barracks_Seed_1", "Ebony Barracks_Seed_2"],
+        "note":"3-16. 开小站，往右进【皇家花园】\n3-20. 往上走杀将军，进【月影神殿】"
+      },
+      {
+        "zoneName": "月影神殿 1 层",
+        "zoneSeed": ["Lunaris Temple Level 1_Seed_1","Lunaris Temple Level 1_Seed_2"],
+        "note": "3-21. 沿着地毯找小站，回城交任务再回来，进2层"
+      },
+      {
+        "zoneName": "月影神殿 2 层",
+        "zoneSeed": ["Lunaris Temple Level 2_Seed_1", "Lunaris Temple Level 2_Seed_2"],
+	"note": "3-22. 探索，上3次楼梯，朝一辆拖车的那侧，进Boss房杀派蒂，下线回城交任务"
+      },
+      {
+        "zoneName": "皇家花园",
+        "zoneSeed": ["Imperial Gardens_Seed_1","占位1","占位2"],
+        "note":"3-17. 往上开小站，进【图书馆】\n3-23. 图书馆边上做试炼，下线回城\n3-24. 升华做完另一侧探索，进【神权之塔】"
+      },
+      {
+        "zoneName": "神权之塔",
+        "zoneSeed": [ "神权之塔", "占位", "占位1", "占位2" ],
+        "note": "3-25. 一路探索走中间，开小站，打Boss，打完另一侧出门【水道遗迹】"
+      },
+ {
+        "zoneName": "上层神权之塔",
+  "zoneSeed": [ "神权之塔", "占位", "占位1", "占位2" ],
+        "note": "3-25. 一路探索走中间，开小站，打Boss，打完另一侧出门【水道遗迹】"
+      }
+    ]
+  },
+  {
+    "region": "Act IV",
+    "zone": [
+	  {
+        "zoneName": "水道遗迹",
+        "zoneSeed": ["水道遗迹"],
+        "note": "小伙子肝够吗."
+      },
+	  {
+        "zoneName": "统治者之殿",
+      "zoneSeed": [ "统治者之殿", "占位", "占位1", "占位2" ],
+        "note": "4-1. 往下进【干涸湖岸】   4-3. 杀完福尔进【漆黑矿坑】\n4-8. 干完德瑞索交任务，传【水晶矿脉】；杀完纲目也传\n4-13. 杀完老Boss交任务右边进门"
+      },
+	  {
+        "zoneName": "干涸湖岸",
+        "zoneSeed": ["Dried Lake_Seed_1","Dried Lake_Seed_2","Dried Lake_Seed_3"],
+        "note": "4-2. 杀福尔，躲锤子，拿工艺，下线回城"
+      },
+      {
+        "zoneName": "漆黑矿坑:第 1 层",
+        "zoneSeed": ["Mines Level 1_Seed_1", "Mines Level 1_Seed_2"],
+        "note": "4-3. 矿工之路，出口通常在左上角,进2层"
+      },
+      {
+        "zoneName": "漆黑矿坑:第 2 层",
+        "zoneSeed": ["Mines Level 2_Seed_1", "Mines Level 2_Seed_2"],
+        "note": "4-4. 点任务解救灵魂，进【水晶矿脉】"
+      },
+      {
+        "zoneName": "水晶矿脉",
+        "zoneSeed": ["Crystal Veins_Seed_1", "Crystal Veins_Seed_2", "Crystal Veins_Seed_3"],
+        "note": "4-5. 探索，开小站，进右边【德瑞索的幻境】\n4-8. 进左边【冈姆的幻境】\n4-9. 进中间，【巨兽沼泽】"
+      },
+      {
+        "zoneName": "冈姆的幻境",
+        "zoneSeed": ["Kaom_s Dream_Seed_1","占位1"],
+        "note": "4-9. 沿着熔岩桥一路走，开小站，杀冈姆，下线"
+      },
+      {
+        "zoneName": "冈姆的堡垒",
+        "zoneSeed": ["Kaom_s Stronghold_Seed_1"],
+        "note": "呀嘿,冈姆哪里逃!."
+      },
+	  {
+        "zoneName": "德瑞索的幻境",
+        "zoneSeed": ["德瑞索"],
+        "note": "4-6. 一路走，进【大竞技场】"
+      },
+	  {
+        "zoneName": "大竞技场",
+      "zoneSeed": [ "大竞技场", "占位", "占位1" ],
+        "note": "4-7. 全程不打怪，左下,直走,左下,直走,打boss，下线回城"
+      },
+      {
+        "zoneName": "巨兽沼泽 1 层",
+        "zoneSeed": ["Belly of the Beast Level 1_Seed_1","Belly of the Beast Level 1_Seed_2","Belly of the Beast Level 1_Seed_3", "Belly of the Beast Level 1_Seed_4"],
+        "note": "4-10. 探索，进2层"
+      },
+      {
+        "zoneName": "巨兽沼泽 2 层",
+        "zoneSeed": ["Belly of the Beast Level 2_Seed_1", "Belly of the Beast Level 2_Seed_2"],
+        "note": "4-11. 探路，杀派蒂，往前走进【育灵之室】"
+      },
+      {
+        "zoneName": "育灵之室",
+        "zoneSeed": [ "Harvest_Seed_1", "占位", "占位1" ],
+        "note": "4-12. 开传送点,灭3小BOSS,德瑞面前别放诅咒\n打完回中间，进【黑灵之核】，杀完Boss下线回城"
+      },
+      {
+        "zoneName": "奥瑞亚之道",
+        "zoneSeed": ["Ascent_Seed_1"],
+        "note": "4-14. 一路往前过桥到任务"
+      }
+    ]
+  },
+  {
+    "region": "Act V",
+    "zone": [
+      {
+        "zoneName": "狱卒之塔",
+        "zoneSeed": [ "狱卒之塔", "占位", "占位1", "占位2" ],
+        "note": "5-1. 接任务，进【控制区】    5-8. 圣杖拿完传【广场遗迹】\n5-10. 拿完3个任务物品，交任务，回传送门(广场遗迹)"
+      },
+	  {
+        "zoneName": "奴隶深坑",
+        "zoneSeed": ["Slave Pens_Seed_1", "Slave Pens_Seed_2"],
+        "note": "4-15. 开小站，探索，等梯子放下来进【狱卒之塔】"
+      },
+      {
+        "zoneName": "控制区",
+        "zoneSeed": [ "Control Blocks_Seed_1", "占位", "占位1" ],
+        "note": "5-2. 走左上角去捡秒表，然后往右走\n杀审判长，进【奥瑞亚广场】"
+      },
+      {
+        "zoneName": "奥瑞亚广场",
+        "zoneSeed": ["Oriath Square_Seed_1"],
+        "note": "5-3. 一路往上，到底往右，进【圣堂高庭】"
+      },
+      {
+        "zoneName": "圣堂高庭",
+        "zoneSeed": ["Templar Courts_Seed_1"],
+        "note": "5-4. 开小站，顺时针探索，进【纯净圣殿】"
+      },
+      {
+        "zoneName": "纯净圣殿",
+        "zoneSeed": ["Chamber of Innocence_Seed_1","占位1"],
+        "note": "5-5. 开小站，绕外圈，进boss房\n杀完Boss另一侧出来\n进【化作火海的高庭】"
+      },
+      {
+        "zoneName": "化作火海的高庭",
+        "zoneSeed": ["Torched Courts_Seed_1"],
+        "note": "5-6. 探索，进【广场遗迹】"
+      },
+      {
+        "zoneName": "广场遗迹",
+        "zoneSeed": ["Ruined Square_Seed_1","占位1","占位2","占位3"],
+        "note": "5-7. 探索，开小站，进【藏古堂】\n5-9. 另一侧探索，叉路见楼梯放门，往右下先进【遗物圣所】\n5-11. 传送门回来另一侧探索，进【教堂顶楼】"
+      },
+      {
+        "zoneName": "藏古堂",
+        "zoneSeed": ["Ossuary_Seed_1"],
+        "note": "5-8. 绕一圈拿圣杖，下线回城"
+      },
+      {
+        "zoneName": "遗物圣所",
+        "zoneSeed": [ "Reliquary_Seed_1", "占位", "占位1" ],
+        "note": "5-10. 3个角落拿任务物品，跑!回小!站!回城"
+      },
+	  {
+        "zoneName": "寂默山岭",
+        "zoneSeed": [],
+   
+      },
+	  	  {
+        "zoneName": "月色回廊",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "月影广场",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "孤岛灯塔",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "惊海之王的海礁",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "断桥营地",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "兽穴",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "港湾大桥",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "日耀广场",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "灰原",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "瓦尔古城",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "堤道",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "贫瘠之地",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "奇迹之墙",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "寂静陵墓",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "奥瑞亚港",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "惊魂树洞",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "剧毒管道",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "巨兽沼泽",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "亵渎之间",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "中转码头",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "稻穗之门",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "斜坡",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "藏骸运河",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "饲槽",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "绿洲",
+        "zoneSeed": [],
+      },
+	  	{
+        "zoneName": "隧道",
+        "zoneSeed": [],
+      },
+	  	{
+        "zoneName": "沸水湖泊",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "贵族花园",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "采石场",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "古兵工厂",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "赤红通道",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "精炼厂",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "巨石丘陵",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "德瑞的污水坑",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "薛朗之塔",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "坠欲之殿 1 层",
+        "zoneSeed": [],
+      },
+	  {
+        "zoneName": "教堂顶楼",
+      "zoneSeed": [ "教堂顶楼", "占位", "占位1" ],
+        "note": "5-12. 一路向北，干就完了\n和罪交谈，直接开船"
+      }
+    ]
+  },
+  {
+    "region": "Act VI",
+    "zone": [
+
+	  {
+        "zoneName": "狮眼守望",
+      "zoneSeed": [ "6_狮眼守望", "占位", "占位1", "占位2", "占位3" ],
+        "note": "6-0. 往下进【海潮孤岛】   6-1. 往上进【暮光海滩】\n6-10. 杀完火羊交任务传【监狱大门】\n6-14. 蜘蛛杀完交任务传【河道】   6-20. 交任务进第七章"
+      },
+	  {
+        "zoneName": "海潮孤岛",
+        "zoneSeed": ["海潮孤岛"],
+        "note": "往前跑噜死冰泥人"
+      },
+	  {
+        "zoneName": "绝望岩滩",
+        "zoneSeed": ["6_绝望岩滩"],
+        "note": "6-0. 噜光所有小怪,再干死BOSS,下线回城"
+      },
+	  {
+        "zoneName": "暮光海滩",
+        "zoneSeed": ["Coast_Seed_1","Coast_Seed_2","Coast_Seed_3","Coast_Seed_4"],
+        "note": "6-2. 一路走，进【炙热盐沼】"
+      },
+      {
+        "zoneName": "炙热盐沼",
+        "zoneSeed": ["Mud Flats_Seed_1", "Mud Flats_Seed_2","占位1"],
+        "note": "6-3. 朝上探索找房子，杀火女烤Boss\n拿眼后往回中上，进【卡鲁要塞】"
+      },
+      {
+        "zoneName": "卡鲁要塞",
+        "zoneSeed": ["Karui Fortress_Seed_1","占位1"],
+        "note": "6-4. 一路走进Boss房,杀完卡鲁出门往上\n进【寂默山岭】"
+      },
+      {
+        "zoneName": "寂默山岭",
+        "zoneSeed": ["Ridge_Seed_1", "Ridge_Seed_2"],
+        "note": "6-5. 一路冲，进【禁灵之狱】"
+      },
+      {
+        "zoneName": "禁灵之狱下层",
+        "zoneSeed": ["Lower Prison_Seed_1","Lower Prison_Seed_2","Lower Prison_Seed_3","Lower Prison_Seed_4"],
+        "note": "6-6. 开小站，做试炼，然后探索，进【薛朗之塔】"
+      },
+      {
+        "zoneName": "薛朗之塔",
+	"zoneSeed": ["Lower Prison_Seed_1","Lower Prison_Seed_2","Lower Prison_Seed_3","Lower Prison_Seed_4"],
+        "note": "6-7. 一路走，进监狱屋顶杀Boss\n杀完Boss另一侧出来，进【监狱大门】"
+      },
+      {
+        "zoneName": "监狱大门",
+        "zoneSeed": ["Prisoner_s Gate_Seed_1", "Prisoner_s Gate_Seed_2", "Prisoner_s Gate_Seed_3"],
+        "note": "6-8. 开小站，沿山脊走小道进【引火者山谷】打Boss,下线回城交任务\n6-11. 沿石板路探索，进【西部密林】"
+      },
+
+	  {
+        "zoneName": "西部密林",
+      "zoneSeed": [ "西部密林", "占位", "占位1" ],
+        "note": "6-12. 小站可不开，沿石板路进【河道】"
+      },
+      {
+        "zoneName": "河道",
+        "zoneSeed": ["Riverways_Seed_1","占位","占位1"],
+        "note": "6-13. 沿着石板路跑到传送点,边上进【湿地】\n6-15. 另一侧探索，到底右转进【南部密林】"
+      },
+	  {
+        "zoneName": "湿地",
+        "zoneSeed": ["湿地","占位2"],
+        "note": "6-14. 一路冲，杀Boss，下线回城交任务"
+      },
+      {
+        "zoneName": "南部森林",
+        "zoneSeed": ["南部森林"],
+        "note": "6-16. 往下,看到独木桥继续跑,开传送点进【怨忿之窟深处】"
+      },
+      {
+        "zoneName": "怨忿之窟深处",
+        "zoneSeed": ["Cavern of Anger_Seed_1", "Cavern of Anger_Seed_2"],
+        "note": "6-17. 拿黑棋一路冲，进【孤岛灯塔】"
+      },
+	  {
+        "zoneName": "孤岛灯塔",
+      "zoneSeed": [ "孤岛灯塔", "占位", "占位1" ],
+        "note": "6-18. 沿着海边跑,看到桥上去玩玩机关,点灯召唤海神咯."
+      },
+      {
+        "zoneName": "惊海之王的海礁",
+        "zoneSeed": ["Brine King_s Reef_Seed_1", "Brine King_s Reef_Seed_2"],
+        "note": "6-19. 开小站，探索，杀Boss，下线回城"
+      }
+    ]
+  },
+  {
+    "region": "Act VII",
+    "zone": [
+	  {
+        "zoneName": "断桥营地",
+      "zoneSeed": [ "断桥营地", "占位", "占位1", "占位2" ],
+        "note": "7-1. 进【河畔断桥】    7-4. 拿完地图传【危机叉路】\n7-15. 拿完萤火虫交任务做升华\n7-16. 升华做完传【瓦尔古城】"
+      },
+	  {
+        "zoneName": "河畔断桥",
+        "zoneSeed": ["河畔断桥","占位1"],
+        "note": "7-1. 沿石板路探索，进【危机叉路】"
+      },
+	  {
+        "zoneName": "危机叉路",
+        "zoneSeed": ["Crossroads_Seed_1","占位1","占位2"],
+        "note": "7-2. 开小站，往右进【堕道遗迹】\n7-5. 另一侧探索，进【罪孽之殿】"
+      },
+	  {
+        "zoneName": "堕道遗迹",
+        "zoneSeed": ["堕道遗迹"],
+        "note": "7-3. 沿着大路跑到底,记得拐弯，进【寂静陵墓】"
+      },
+      {
+        "zoneName": "寂静陵墓",
+        "zoneSeed": ["Crypt 1_Seed_1", "Crypt 1_Seed_2", "Crypt 1_Seed_3"],
+        "note": "7-4. 做试炼，进第二层，拿地图下线"
+      },
+      {
+        "zoneName": "The Crypt 2",
+        "zoneSeed": ["Crypt 2_Seed_1","Crypt 2_Seed_2","Crypt 2_Seed_3"]
+      },
+      {
+        "zoneName": "罪孽之殿 1 层",
+        "zoneSeed": ["Chamber of Sins 1_Seed_1", "Chamber of Sins 1_Seed_2", "Chamber of Sins 1_Seed_3"],
+        "note": "7-6. 开小站，开地图，打完Boss开门交任务,小站同侧进2层"
+      },
+      {
+        "zoneName": "罪孽之殿 2 层",
+        "zoneSeed": ["Chamber of Sins 2_Seed_1"],
+        "note": "7-7. 做试炼，探索，进【兽穴】"
+      },
+      {
+        "zoneName": "兽穴",
+        "zoneSeed": ["Den_Seed_1", "Den_Seed_2", "Den_Seed_3", "Den_Seed_4"],
+        "note": "7-8. 开小站一路冲，进【灰原】"
+      },
+	  {
+        "zoneName": "灰原",
+        "zoneSeed": ["灰原"],
+        "note": "7-9. 开小站，打BOSS，进【北部密林】"
+      },
+	  {
+        "zoneName": "北部密林",
+      "zoneSeed": [ "北部密林", "占位", "占位1" ],
+        "note": "7-10. 开小站，探索，【惊魂树洞】门口放门\n先继续探索，进【堤道】"
+      },
+	  {
+        "zoneName": "惊魂树洞",
+      "zoneSeed": [ "惊魂树洞", "占位", "占位1" ],
+        "note": "7-13. 转一圈,踩萤火虫\n进Boss房杀Boss，下线"
+      },
+	  {
+        "zoneName": "堤道",
+        "zoneSeed": ["堤道"],
+        "note": "7-11. 开小站，拿任务物品，进【瓦尔古城】"
+      },
+      {
+        "zoneName": "瓦尔古城",
+        "zoneSeed": ["Vaal City_Seed_1","占位1","占位2"],
+        "note": "7-12. 沿中间左侧厚墙探索，开小站，回城进门\n7-16. 进【坠欲之殿】"
+      },
+      {
+        "zoneName": "坠欲之殿 1 层",
+        "zoneSeed": [ "占位", "占位1" ],
+        "note": "7-17. 对角一路冲杀Boss"
+      }
+    ]
+  },
+  {
+    "region": "Act VIII",
+    "zone": [
+      {
+        "zoneName": "奇迹之墙",
+        "zoneSeed": ["奇迹之墙"],
+        "note": "8-0. 会不会爬墙?."
+      },
+	  {
+        "zoneName": "萨恩营地",
+        "zoneSeed": ["萨恩营地","占位1","占位2"],
+        "note": "8-1. 往左进【剧毒管道】   8-6. 日耀完事传【剧毒管道】\n8-10. 杀死冰Boss交任务，传【古兵工厂】"
+      },
+	  {
+        "zoneName": "剧毒管道",
+        "zoneSeed": ["Toxic Conduits_Seed_1","Toxic Conduits_Seed_2"],
+        "note": "8-1. 呕吐物方向一路冲，进【德瑞的污水坑】"
+      },
+      {
+        "zoneName": "德瑞的污水坑",
+        "zoneSeed": ["Doedre_s Cesspool_Seed_1","Doedre_s Cesspool_Seed_2","Doedre_s Cesspool_Seed_3"],
+        "note": "8-2. 探索，一路冲,进井盖杀Boss，进下水道出口，往右进【中转码头】\n8-7. 另一侧进【月色回廊】"
+      },
+      {
+        "zoneName": "中转码头",
+        "zoneSeed": ["Quay_Seed_1","Quay_Seed_2","占位1","占位2"],
+        "note": "8-3. 贴左墙，大门往下拿任务物品(1)，一路往下打Boss(2)，然后右上(3)找到出口进【稻穗之门】"
+      },
+	  {
+        "zoneName": "月色回廊",
+        "zoneSeed": ["月色回廊"],
+        "note": "8-8. 一路向右,探索进【古兵工厂】"
+      },
+      {
+        "zoneName": "稻穗之门",
+        "zoneSeed": ["Grain Gate_Seed_1","Grain Gate_Seed_2","占位1"],
+        "note": "8-4. 探索，路过杀小Boss，进【帝国平原】\n然后一路冲进【日耀神殿】"
+      },
+
+            {
+        "zoneName": "日耀神殿 1 层",
+        "zoneSeed": ["Solaris Temple 1_Seed_1","Solaris Temple 1_Seed_2"],
+ 	"note": "8-5. 一路冲进2层"
+      },
+{
+        "zoneName": "日耀神殿 2 层",
+        "zoneSeed": ["Solaris Temple 2_Seed_1","Solaris Temple 2_Seed_2"],
+ 	"note": "8-6. 一路冲,杀Boss回城"
+      },
+ {
+        "zoneName": "古兵工厂",
+        "zoneSeed": ["Bath House_Seed_1","Bath House_Seed_2"],
+	"note": "8-9. 开小站，不管任务，进【贵族花园】\n8-11. 做试炼，进【月影广场】"
+	  },
+ {
+        "zoneName": "月影广场",
+        "zoneSeed": ["Lunaris Concourse_Seed_1","Lunaris Concourse_Seed_2"],
+        "note": "8-12. 开小站,往上进【月影神殿】\n8-14. 往回走进【港湾大桥】"
+      },
+     
+     
+	 {
+        "zoneName": "港湾大桥",
+    "zoneSeed": [ "港湾大桥", "占位", "占位1" ],
+        "note": "8-15. 一路冲，中间进【天空神殿】\n杀完Boss进【赤红通道】"
+      },
+	  {
+	    "zoneName": "贵族花园",
+        "zoneSeed": ["贵族花园"],
+        "note": "8-10. 一路冲，进房杀Boss，下线"
+      },
+	  {
+        "zoneName": "日耀广场",
+        "zoneSeed": ["日耀广场"],
+        "note": "开传送,一路向上."
+      },
+      {
+        "zoneName": "月影神殿 1 层",
+        "zoneSeed": ["Lunaris Temple 1_Seed_1","Lunaris Temple 1_Seed_2","Lunaris Temple 1_Seed_3"],
+        "note": "8-13. 开小站，进2层"
+      },
+      {
+        "zoneName": "月影神殿 2 层",
+        "zoneSeed": ["Lunaris Temple 2_Seed_1","Lunaris Temple 2_Seed_2"],
+        "note":"8-14. 上楼梯，杀Boss，下线，传【月影广场】，往回走，进【港湾大桥】"
+	}
+    ]
+  },
+  {
+    "region": "Act IX",
+    "zone": [
+      {
+        "zoneName": "赤红通道",
+        "zoneSeed": ["赤红通道"],
+        "note": "9-0. 冲冲冲，mlgb的"
+      },
+	  {
+        "zoneName": "统治者之殿",
+        "zoneSeed": ["统治者之殿","占位1","占位2"],
+        "note": "9-1. 右上进【斜坡】   \n9-3. 沙漠回来找卖技能的交任务拿瓶子，进门\n9-8. 风暴女神打完交任务，传【采石场】"
+      },
+	  {
+        "zoneName": "斜坡",
+        "zoneSeed": ["Descent_Seed_1"],
+        "note": "9-2. 直下3个坡道,进【贫瘠之地】"
+      },
+      {
+        "zoneName": "贫瘠之地",
+        "zoneSeed": ["Vastiri Desert_Seed_1","占位1","占位2"],
+        "note": "9-3. 开小站，找任务(1)杀Boss。探索，【统治者之殿】门口开门回家\n传回来了进【绿洲】\n9-5. 另一侧探索，进【巨石丘陵】   9-10. 杀完蒙多传【采石场】"
+      },
+      {
+        "zoneName": "绿洲",
+        "zoneSeed": ["Oasis_Seed_1", "Oasis_Seed_2"],
+        "note": "9-4. 探索，进门杀蝎子，下线找伊沙拉，传【贫瘠之地】"
+      },
+      {
+        "zoneName": "巨石丘陵",
+        "zoneSeed": ["Foothills_Seed_1","占位2"],
+        "note": "9-6. 开小站,进湖泊杀火鸡\n9-8. 另一侧探索，进【隧道】"
+      },
+	  {
+        "zoneName": "沸水湖泊",
+        "zoneSeed": ["沸水湖泊","占位1"],
+        "note": "9-7. 敢给火鸡烤3秒吗，杀完下线传【巨石丘陵】"
+      },
+      {
+        "zoneName": "隧道",
+        "zoneSeed": ["Tunnel_Seed_1", "Tunnel_Seed_2", "Tunnel_Seed_3"],
+        "note": "9-7. 一直跑,试炼做完出来，另一侧开小站，进【采石场】"
+      },
+      {
+        "zoneName": "采石场",
+        "zoneSeed": ["Quarry_Seed_1","占位1"],
+        "note": "9-8. 开小站，先去风神庙(2)杀Boss，下线\n9-9. 另一侧探索，进精炼厂(1).\n9-11. 杀完蒙多对话罪，进【巨兽沼泽】"
+      },
+      {
+        "zoneName": "精炼厂",
+        "zoneSeed": ["Refinery_Seed_1","占位1"],
+        "note": "9-10. 跟着电线一路冲，杀Boss，拿任务，下线"
+      },
+      {
+        "zoneName": "巨兽沼泽",
+        "zoneSeed": ["Belly of the Beast_Seed_1","Belly of the Beast_Seed_2","Belly of the Beast_Seed_3"],
+        "note": "9-11. 一路冲，进【育灵之室】，杀Boss，下线"
+      },
+       
+    ]
+  },
+  {
+    "region": "Act X",
+    "zone": [
+      {
+        "zoneName": "广场遗迹",
+        "zoneSeed": ["Ravaged Square_Seed_1","占位1","占位2","占位"],
+        "note": "10-2. 下台阶放门，一路往最下探索，进【控制区】\n10-4. 另一侧探索，第二条桥向上开小站，进【藏古堂】\n10-8. 右侧探索，进【化作火海的高庭】       10-11. 对话天使，进门"
+      },
+      {
+        "zoneName": "化作火海的高庭",
+        "zoneSeed": ["化作火海的高庭"],
+        "note": "10-9. 绕外圈进【亵渎之间】"
+      },
+	  {
+        "zoneName": "奥瑞亚港",
+      "zoneSeed": [ "奥瑞亚港", "占位", "占位1", "占位2", "占位3" ],
+        "note": "10-1. 进【教堂顶楼】 10-3. 控制区回来后进门   10-6. 试炼做完回来做升华，做完传【控制区】\n10-7. 控制区Boss击杀后传【广场遗迹】\n10-10. 亵渎之间回来对话巴农，传【广场遗迹】"
+      },
+	  {
+        "zoneName": "控制区",
+        "zoneSeed": ["控制区","占位1"],
+        "note": "10-3. 开小站，回城\n10-7. 传回来进房杀Boss，下线"
+      },
+	  {
+        "zoneName": "遗物圣所",
+        "zoneSeed": ["遗物圣所"],
+        "note": "拿眼泪."
+      },
+	  {
+        "zoneName": "藏古堂",
+        "zoneSeed": ["藏古堂"],
+        "note": "10-5. 不做支线,做试炼，做完下线"
+      },
+	  {
+        "zoneName": "藏骸运河",
+        "zoneSeed": ["藏骸运河"],
+        "note": "10-12. 一路冲，进【饲槽】"
+      },
+	  {
+        "zoneName": "教堂顶楼",
+      "zoneSeed": [ "藏骸运河", "占位", "占位1", "占位2" ],
+        "note": "10-1. 往左进【教堂之尖】救老头，杀完不用对话，直接回，往右进【广场遗迹】"
+      },
+	  {
+        "zoneName": "饲槽",
+        "zoneSeed": ["藏骸运河"],
+        "note": "冲鸭,铜锣湾扛把子VS七佛塔"
+      },
+	  {
+        "zoneName": "亵渎之间",
+        "zoneSeed": ["亵渎之间"],
+        "note": "10-10. 开小站，绕圈打Boss，下线"
+      }
+    ]
+  }
+]
